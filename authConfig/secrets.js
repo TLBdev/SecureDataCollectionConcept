@@ -1,4 +1,6 @@
 module.exports = {
     HashSecret: process.env.HASH_SECRET || 'Monica',
-    JWTSecret: process.env.JWTSecret || '8675309'
+    jwtSecret: process.env.JWT_SECRET || '8675309',
+    adminSecret: process.env.ADMIN_SECRET || 'admin',
+    passSecret: process.env.PASS_SECRET || 'pass'
 }
