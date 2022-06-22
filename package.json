@@ -20,6 +20,6 @@
   "author": "TLB.dev@gmx.com",
   "license": "MIT",
   "devDependencies": {
-    "sqlite3": "^5.0.0"
+    "sqlite3": "^5.0.3"
   }
 }
